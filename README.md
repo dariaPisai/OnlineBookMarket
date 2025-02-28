@@ -1,24 +1,36 @@
 "Bookish" is a robust Java application, built on the Spring framework, that follows the Model-View-Controller (MVC) architecture. It provides users with an administrator role with an interface to efficiently manage a collection of books.
 The application includes functionality such as adding, editing, deleting and searching books, ensuring ease of use and backend efficiency. The application uses multiple technologies, such as Java Persistence API (which is used for object-relational mapping), H2 Database (which was used for testing the connection to a temporary database), JavaServer Pages (used for creating a dynamic user interface) and MySQL (for the database connection).
+
+
 1. Functional Specifications
 
 a. View books: Users can view the full list of books, each containing details such as title, ISBN, description, price, language, publication date and availability.
-<img width="435" alt="image" src="https://github.com/user-attachments/assets/4d36f7df-f984-45e7-8ea4-21830e7c032e" />
+
+ <img width="435" alt="image" src="https://github.com/user-attachments/assets/4d36f7df-f984-45e7-8ea4-21830e7c032e" />
+
 b. Adding cards: Users can add new cards through a form interface with validation checks.
-<img width="381" alt="image" src="https://github.com/user-attachments/assets/b1b0e439-9cad-4660-9e3c-f573de66760c" />
+
+ <img width="381" alt="image" src="https://github.com/user-attachments/assets/b1b0e439-9cad-4660-9e3c-f573de66760c" />
+
 c. Editing books: Existing book details can be updated via a dedicated form.
-<img width="452" alt="image" src="https://github.com/user-attachments/assets/a578dffb-4732-4920-b8ea-b7ffaced41c9" />
+
+ <img width="452" alt="image" src="https://github.com/user-attachments/assets/a578dffb-4732-4920-b8ea-b7ffaced41c9" />
+
 d. Deleting books: Books can be removed from the list with user confirmation to avoid accidental deletions.
-<img width="452" alt="image" src="https://github.com/user-attachments/assets/a129c195-7eca-4868-8866-6147c6dac323" />
+
+ <img width="452" alt="image" src="https://github.com/user-attachments/assets/a129c195-7eca-4868-8866-6147c6dac323" />
+
 e. Search for books: A search function allows users to find books by titles, using partial and case-insensitive matches.
-<img width="452" alt="image" src="https://github.com/user-attachments/assets/542d4a70-075b-458e-88fe-0245d7048b8f" />
+
+ <img width="452" alt="image" src="https://github.com/user-attachments/assets/542d4a70-075b-458e-88fe-0245d7048b8f" />
 
 
 
 2. Validation:
 • Ensures data integrity through field-level constraints, such as non-null titles, a 13- digit ISBN, positive prices and correct data
 • Personalized error messages guide users while submitting forms.
-<img width="332" alt="image" src="https://github.com/user-attachments/assets/0830c0fc-9211-44c8-8fa9-0f22fb502a1f" />
+
+ <img width="332" alt="image" src="https://github.com/user-attachments/assets/0830c0fc-9211-44c8-8fa9-0f22fb502a1f" />
 
 
 3. Components Description
